@@ -1,0 +1,42 @@
+body {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form div {
+  display: flex;
+  width: 15em;
+  flex-direction: column;
+  height: 5em;
+  justify-content: space-around;
+}
+input {
+  width: 12em;
+  height: 2.5em;
+  outline: none;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  margin: 0.5em 0 0.5em 3.5em;
+}
+button:hover {
+  cursor: pointer;
+}

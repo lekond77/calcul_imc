@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="IRM.css">
+    <script src="IRM.js" type="text/javascript" async></script>
+    <title>IRM</title>
+</head>
+<body>
+<h1>Calcul d'IRM</h1>
+    <form action="">
+        <div>
+            <label for="weight">Poids en Kg (Ex: 50) </label>
+            <input type="text" name="poids" id="weight" placeholder="Entrer votre poids">
+        </div>
+        <div>
+            <label for="height">Taille en m (Ex: 1.7) </label>
+            <input type="text" name="height" id="height" placeholder="Entrer votre taille" >
+        </div>
+    </form>
+<div id="containValue">
+    <div id="displayTextIrm">
+    </div>
+</div>
+    <button id="calcul" onclick="displayIRM()"> Calculer</button>
+
+    
+</body>
+</html>
