@@ -13,7 +13,7 @@ function displayIRM() {
   } else if (weight.value != 0 && height.value != 0) {
     let irm = (weight.value / (height.value * height.value)).toPrecision(2);
     displayTextIrm.innerHTML =
-      '<p style="color: green ; text-align:center; font-size:1.3em;" >Votre IRM est : </p>';
+      '<p style="color: green ; text-align:center; font-size:1.3em;" >Votre IMC est : </p>';
     button = document.createElement("button");
     displayTextIrm.appendChild(button);
     button.innerText = irm;
